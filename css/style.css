@@ -1,10 +1,40 @@
-div{
-    font-size: 2em;
-}
-
 h1{
     color: #0066ffd5;
     font-size: 3rem;
     background-color: rgb(228, 227, 199);
-    width: 60%;
+    width: 50%;
+    border: 9px dotted grey;
+}
+
+h2 {
+    font-family: font-family: 'Montserrat', sans-serif;
+    text-align: center
+}
+
+/*formatação dos títulos*/
+
+
+p {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+span {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: chartreuse;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+ul {
+    font-size: 50px;
+    list-style: none;
+}
+
+ol {
+    font-size: 50px;
+    list-style: upper-latin;
+    margin-left: auto;
+
 }
