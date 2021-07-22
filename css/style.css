@@ -35,9 +35,10 @@ ol {
     margin-left: 16rem;
 }
 
-#titulo-principal {
+#título {
     margin-left: 5rem;
 }
+
 .título {
     color: red;
     font-size: 5rem;
@@ -47,4 +48,57 @@ ol {
 .título {
 color: green;
 border-style: double;
+}
+
+.container-exemplo .titulo-generico {
+    font-size: 80px;
+    color: black;
+}
+
+.titulo-generico {
+    font-size: 40px;
+    color: red;
+}
+
+.meu-link {
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+
+.meu-link:hover {
+    background-color: cadetblue;
+    text-decoration: underline;
+    
+}
+
+.meu-link:link {
+   color: chartreuse;
+}
+
+.meu-link:visited {
+    color:cyan;
+ }
+
+ .meu-link:active {
+    font-size: 60px;
+    color: black;
+ }
+
+ .meu-link:focus {
+     font-size: 90px;
+     color: brown;
+ }
+
+ .meu-input {
+     background-color: cadetblue;
+     font-size: 20px;
+     color: cornsilk;
+ }
+
+ .meu-input:focus {
+    background-color: bisque;
+    font-size: 20px;
+    color: black;
 }
