@@ -91,9 +91,9 @@ border-style: double;
      color: brown;
  }
 
- .meu-input {
+ .meu-input[type="number"] {
      background-color: cadetblue;
-     font-size: 20px;
+     font-size: 50px;
      color: cornsilk;
  }
 
@@ -102,3 +102,32 @@ border-style: double;
     font-size: 20px;
     color: black;
 }
+
+.nav-menu {
+    border:  2px solid blue;
+    list-style: none;
+}
+
+.menu-item {
+    border: 2px dashed crimson;
+    background-color: darkgrey;
+    margin-bottom: 20px;
+}
+
+.menu-item:last-child {
+    margin-bottom: 0px
+}
+
+.menu-item:first-child {
+
+    color: red;
+}
+
+.menu-item:nth-child(3) {
+    background-color: green;
+}
+
+.menu-item:nth-child(n+2) {
+    font-weight: bold;
+}
+
