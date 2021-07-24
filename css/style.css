@@ -112,6 +112,9 @@ border-style: double;
     border: 2px dashed crimson;
     background-color: darkgrey;
     margin-bottom: 20px;
+    display: inline-block;
+    font-size: 30px;
+    min-height: 50px;
 }
 
 .menu-item:last-child {
@@ -131,3 +134,13 @@ border-style: double;
     font-weight: bold;
 }
 
+.bloco-inicial {
+    font-size: 50px;
+    background-color: orangered;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.bloco-escondido {
+    display: none;
+}
