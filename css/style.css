@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 h2 {
     font-family: font-family: 'Montserrat', sans-serif;
     text-align: center
@@ -144,3 +148,18 @@ border-style: double;
 .bloco-escondido {
     display: none;
 }
+
+.box {background-color: blue;
+    color: ivory;
+    width: 100px;  
+    /*height: 100px; não usar*/ 
+    display: block;
+    /*border: 10px solid green;*/
+    padding-top: 10px; 
+    padding-right: 20px;    
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+    border-top: green 10px solid;
+    border-bottom-style: 04 px dashed green;}
+    
